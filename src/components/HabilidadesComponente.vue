@@ -78,16 +78,15 @@ const habilidades = ref([
     justify-content: center;
     align-items: center;
     gap: 10px;
-    background-color: rgba(241, 245, 243, 0.856);
+    background-color: rgba(59, 59, 59, 0.856);
     padding: 0.3em;
     border-radius: 8px;
-    box-shadow: 0px 4px 12px rgba(2, 151, 151, 0.963);
     flex: 1 1 200px;
     max-width: 250px;
 }
 
 .skill:hover {
-    background-color: rgba(2, 151, 151, 0.963);
+    background-color: rgba(167, 255, 4, 0.963);
 }
 
 .skill img {
@@ -97,7 +96,7 @@ const habilidades = ref([
 
 .skill span {
     font-size: 1em;
-    color: #333;
+    color: #ffffff;
 }
 
 .skill:hover {

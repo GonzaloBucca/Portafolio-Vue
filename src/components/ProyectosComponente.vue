@@ -38,7 +38,7 @@ misProyectos.value = ([
     gap: 20px;
     padding: 20px;
     justify-content: center;
-    background: linear-gradient(-45deg, #021526, #03346E, #6EACDA, #E2E2B6);
+    background: linear-gradient(-45deg, #fbff00, #ffc400, #6eda6e, #E2E2B6);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
 }

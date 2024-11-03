@@ -2,7 +2,6 @@
 import linkedin from '/src/assets/linkedin_icon.svg';
 import Instagram from '/src/assets/instagram_icon.svg';
 import github from '/src/assets/github_icon.svg';
-import cv from '/src/assets/cv_resume_icon.svg';
 
 
 const title = 'Gonzalo Bucca';
@@ -13,7 +12,6 @@ const redesSociales = [
   { id: 1, name: 'linkedin', src: linkedin, url: 'https://www.linkedin.com/in/gonza-bucca-68103331b/' },
   { id: 2, name: 'instagram', src: Instagram, url: 'https://www.instagram.com/gonzabbucca/' },
   { id: 3, name: 'github', src: github, url: 'https://github.com/GonzaloBucca' },
-  { id: 4, name: 'curriculum', src: cv, url: '' },
 ];
 const telefono = '+54 9 2604-401498';
 </script>
@@ -47,7 +45,7 @@ p {
 }
 
 .card {
-  background-color: rgb(28, 41, 52);
+  background-color: rgb(59, 59, 59);
   border-radius: 10px;
   padding: 10px;
   margin: 10px;
@@ -73,7 +71,7 @@ p {
 }
 
 .icon-redsocial:hover {
-  background-color: rgb(28, 41, 52);
+  background-color: rgb(255, 255, 255);
   box-shadow: 0 0 5px rgba(251, 249, 249, 0.934);
 }
 

@@ -27,7 +27,7 @@ const experiencias = ref([
     display: flex;
     flex-direction: column;
     padding: 2rem;
-    background-color: rgb(28, 41, 52);
+    background-color: rgb(59, 59, 59);
     border-radius: 15px;
 }
 

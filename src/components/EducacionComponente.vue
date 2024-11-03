@@ -2,11 +2,10 @@
 import {ref} from 'vue';
 const fechaColor=ref([]);
 fechaColor.value=[
-  {color:'#41516c'},
-  {color:'#FBCA3E'},
-  {color:'#E24A68'},
-  {color:'#1B5F8C'},
-  {color:'#4CADAD'},
+  {color:'#595959'},
+  {color:'#595959'},
+  {color:'#595959'},
+  {color:'#595959'},
 ];
 
 const educacion = ref([]);
