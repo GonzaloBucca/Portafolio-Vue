@@ -1,33 +1,43 @@
 <script setup>
+import JavaScript from '/src/components/icons/JavaScript.svg';
+import Python from "/src/components/icons/Python.svg";
+import Java from "/src/components/icons/Java.svg";
+import Vuejs from "/src/components/icons/Vue.js.svg";
+import Git from "/src/components/icons/Git.svg";
+import VSC from "/src/components/icons/VisualStudioCode.svg";
+import MySQL from "/src/components/icons/MySQL.svg";
+import Español from "/src/components/icons/arg.svg";
+import Ingles from "/src/components/icons/eeuu.svg"
+
 import { ref } from 'vue';
 const habilidades = ref([
     {
         id: 1, nombre: 'Lenguajes de Programación', habilidades: [
-            { id: 1, nombre: 'JavaScript', nivel: 'En formación', icono: "/src/components/icons/JavaScript.svg" },
-            { id: 2, nombre: 'Python', nivel: 'En formación', icono: "/src/components/icons/Python.svg" },
-            { id: 3, nombre: 'Java', nivel: 'En formación', icono: "/src/components/icons/Java.svg" },
+            { id: 1, nombre: 'JavaScript', nivel: 'En formación', icono: JavaScript },
+            { id: 2, nombre: 'Python', nivel: 'En formación', icono: Python },
+            { id: 3, nombre: 'Java', nivel: 'En formación', icono: Java },
         ]
     },
     {
         id: 2, nombre: 'Frameworks y Librerías', habilidades: [
-            { id: 1, nombre: 'Vue.js', nivel: 'En formación', icono: "/src/components/icons/Vue.js.svg" },
+            { id: 1, nombre: 'Vue.js', nivel: 'En formación', icono: Vuejs },
          ]
     },
     {
         id: 3, nombre: 'Herramientas y Software', habilidades: [
-            { id: 1, nombre: 'Git', nivel: 'En formación', icono: "/src/components/icons/Git.svg" },
-            { id: 2, nombre: 'Visual Studio Code', nivel: 'En formación', icono: "/src/components/icons/VisualStudioCode.svg" }
+            { id: 1, nombre: 'Git', nivel: 'En formación', icono: Git },
+            { id: 2, nombre: 'Visual Studio Code', nivel: 'En formación', icono: VSC }
         ]
     },
     {
         id: 4, nombre: 'Bases de Datos', habilidades: [
-            { id: 1, nombre: 'MySQL', nivel: 'En formación', icono: "/src/components/icons/MySQL.svg" },
+            { id: 1, nombre: 'MySQL', nivel: 'En formación', icono: MySQL },
         ]
     },
     {
         id: 5, nombre: 'Idiomas', habilidades: [
-            { id: 1, nombre: 'Español', nivel: 'Nativo', icono: "/src/components/icons/arg.svg" },
-            { id: 2, nombre: 'Inglés', nivel: 'Intermedio', icono: "/src/components/icons/eeuu.svg" }
+            { id: 1, nombre: 'Español', nivel: 'Nativo', icono: Español },
+            { id: 2, nombre: 'Inglés', nivel: 'Intermedio', icono: Ingles }
         ]
     }
 ]);
